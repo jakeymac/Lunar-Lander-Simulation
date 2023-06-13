@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA453AC02A1026A7001F1876 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA453ABF2A1026A7001F1876 /* OpenGL.framework */; };
+		BA453AC22A1026AC001F1876 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA453AC12A1026AC001F1876 /* GLUT.framework */; };
+		BAA553092A22930B00C2B160 /* star.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAA552FB2A22930A00C2B160 /* star.cpp */; };
+		BAA5530A2A22930B00C2B160 /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAA552FC2A22930A00C2B160 /* point.cpp */; };
+		BAA5530B2A22930B00C2B160 /* moonlander.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAA552FF2A22930A00C2B160 /* moonlander.cpp */; };
+		BAA5530C2A22930B00C2B160 /* uiDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAA553002A22930A00C2B160 /* uiDraw.cpp */; };
+		BAA5530D2A22930B00C2B160 /* uiInteract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAA553042A22930A00C2B160 /* uiInteract.cpp */; };
+		BAA5530E2A22930B00C2B160 /* ground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAA553062A22930A00C2B160 /* ground.cpp */; };
+		BAA5530F2A22930B00C2B160 /* glDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAA553082A22930B00C2B160 /* glDemo.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA453A6F2A0FE99B001F1876 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA453A712A0FE99B001F1876 /* Week 4 Lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Week 4 Lab"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA453ABF2A1026A7001F1876 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		BA453AC12A1026AC001F1876 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		BAA552F92A22930A00C2B160 /* ground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ground.h; sourceTree = "<group>"; };
+		BAA552FA2A22930A00C2B160 /* star.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = star.h; sourceTree = "<group>"; };
+		BAA552FB2A22930A00C2B160 /* star.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = star.cpp; sourceTree = "<group>"; };
+		BAA552FC2A22930A00C2B160 /* point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = "<group>"; };
+		BAA552FD2A22930A00C2B160 /* point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = point.h; sourceTree = "<group>"; };
+		BAA552FE2A22930A00C2B160 /* moonlander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moonlander.h; sourceTree = "<group>"; };
+		BAA552FF2A22930A00C2B160 /* moonlander.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = moonlander.cpp; sourceTree = "<group>"; };
+		BAA553002A22930A00C2B160 /* uiDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uiDraw.cpp; sourceTree = "<group>"; };
+		BAA553012A22930A00C2B160 /* trigonometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trigonometry.h; sourceTree = "<group>"; };
+		BAA553022A22930A00C2B160 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		BAA553032A22930A00C2B160 /* uiInteract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiInteract.h; sourceTree = "<group>"; };
+		BAA553042A22930A00C2B160 /* uiInteract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uiInteract.cpp; sourceTree = "<group>"; };
+		BAA553052A22930A00C2B160 /* uiDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiDraw.h; sourceTree = "<group>"; };
+		BAA553062A22930A00C2B160 /* ground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ground.cpp; sourceTree = "<group>"; };
+		BAA553072A22930A00C2B160 /* physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = physics.h; sourceTree = "<group>"; };
+		BAA553082A22930B00C2B160 /* glDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glDemo.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA453A6E2A0FE99B001F1876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA453AC22A1026AC001F1876 /* GLUT.framework in Frameworks */,
+				BA453AC02A1026A7001F1876 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA453A682A0FE99B001F1876 = {
+			isa = PBXGroup;
+			children = (
+				BAA553082A22930B00C2B160 /* glDemo.cpp */,
+				BAA553062A22930A00C2B160 /* ground.cpp */,
+				BAA552F92A22930A00C2B160 /* ground.h */,
+				BAA552FF2A22930A00C2B160 /* moonlander.cpp */,
+				BAA552FE2A22930A00C2B160 /* moonlander.h */,
+				BAA553072A22930A00C2B160 /* physics.h */,
+				BAA552FC2A22930A00C2B160 /* point.cpp */,
+				BAA552FD2A22930A00C2B160 /* point.h */,
+				BAA553022A22930A00C2B160 /* readme.md */,
+				BAA552FB2A22930A00C2B160 /* star.cpp */,
+				BAA552FA2A22930A00C2B160 /* star.h */,
+				BAA553012A22930A00C2B160 /* trigonometry.h */,
+				BAA553002A22930A00C2B160 /* uiDraw.cpp */,
+				BAA553052A22930A00C2B160 /* uiDraw.h */,
+				BAA553042A22930A00C2B160 /* uiInteract.cpp */,
+				BAA553032A22930A00C2B160 /* uiInteract.h */,
+				BA453A722A0FE99B001F1876 /* Products */,
+				BA453ABE2A1026A7001F1876 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA453A722A0FE99B001F1876 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA453A712A0FE99B001F1876 /* Week 4 Lab */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA453ABE2A1026A7001F1876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA453AC12A1026AC001F1876 /* GLUT.framework */,
+				BA453ABF2A1026A7001F1876 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA453A702A0FE99B001F1876 /* Week 4 Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA453A782A0FE99B001F1876 /* Build configuration list for PBXNativeTarget "Week 4 Lab" */;
+			buildPhases = (
+				BA453A6D2A0FE99B001F1876 /* Sources */,
+				BA453A6E2A0FE99B001F1876 /* Frameworks */,
+				BA453A6F2A0FE99B001F1876 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week 4 Lab";
+			productName = "Week 4 Lab";
+			productReference = BA453A712A0FE99B001F1876 /* Week 4 Lab */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA453A692A0FE99B001F1876 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BA453A702A0FE99B001F1876 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = BA453A6C2A0FE99B001F1876 /* Build configuration list for PBXProject "Week 6 Lab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA453A682A0FE99B001F1876;
+			productRefGroup = BA453A722A0FE99B001F1876 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA453A702A0FE99B001F1876 /* Week 4 Lab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA453A6D2A0FE99B001F1876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA5530E2A22930B00C2B160 /* ground.cpp in Sources */,
+				BAA5530D2A22930B00C2B160 /* uiInteract.cpp in Sources */,
+				BAA5530A2A22930B00C2B160 /* point.cpp in Sources */,
+				BAA5530F2A22930B00C2B160 /* glDemo.cpp in Sources */,
+				BAA553092A22930B00C2B160 /* star.cpp in Sources */,
+				BAA5530B2A22930B00C2B160 /* moonlander.cpp in Sources */,
+				BAA5530C2A22930B00C2B160 /* uiDraw.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA453A762A0FE99B001F1876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA453A772A0FE99B001F1876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA453A792A0FE99B001F1876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA453A7A2A0FE99B001F1876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA453A6C2A0FE99B001F1876 /* Build configuration list for PBXProject "Week 6 Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA453A762A0FE99B001F1876 /* Debug */,
+				BA453A772A0FE99B001F1876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA453A782A0FE99B001F1876 /* Build configuration list for PBXNativeTarget "Week 4 Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA453A792A0FE99B001F1876 /* Debug */,
+				BA453A7A2A0FE99B001F1876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA453A692A0FE99B001F1876 /* Project object */;
+}
